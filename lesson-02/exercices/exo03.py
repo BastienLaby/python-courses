@@ -13,3 +13,8 @@ del numbers[random.randint(0, len(numbers) - 1)]
 random.shuffle(numbers)
 
 # Etant donné la liste "numbers" modifiée ci dessus, trouver et afficher le chiffre manquant
+
+# boucles for
+# break
+# if/else
+# len(...)
