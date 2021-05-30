@@ -26,7 +26,15 @@ random.shuffle(numbers)
 numbers.sort()
 i = 0
 for num in numbers:
-    if num != i:
+    if num == i:
+        i += 1
+    else:
         print("%s is missing" % i)
         break
-    i += 1
+
+# solution utilisant des "sets"
+# Un Set est une structure de données similaire à la liste mais où un même élément ne peut être présent qu'une seule fois
+
+numbers = set(numbers)
+expectedNumbers = set(range(1000))
+print(expectedNumbers.difference(numbers))
