@@ -6,4 +6,4 @@ Lesson 03 : Functions
 
 Lesson 04 : Dict, While Loop, String parsing
 
-**-> Project 01 :** Calculator from string parsing
+**-> Project 01 :** Words counter
